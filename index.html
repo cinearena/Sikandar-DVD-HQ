@@ -39,13 +39,10 @@
             margin-top: 0;
         }
         .movie-details-row {
-            display: flex;
-            justify-content: space-between;
             margin-bottom: 15px;
         }
         .movie-details-row div {
-            flex: 1;
-            text-align: center;
+            margin-bottom: 5px;
         }
         .description, .review {
             background-color: #e7f7f7;
@@ -100,31 +97,40 @@
 <div class="container">
     <h2>Movie Details</h2>
     <div class="movie-details-box">
+        <!-- IMDB Rating Row -->
         <div class="movie-details-row">
-            <div>
-                <h3>IMDB Rating:</h3>
-                <p>7.7/10</p>
-            </div>
-            <div>
-                <h3>Genre:</h3>
-                <p>Action | Drama | Thriller</p>
-            </div>
-            <div>
-                <h3>Stars:</h3>
-                <p>Salman Khan, Rashmika Mandanna, Sathyaraj</p>
-            </div>
-            <div>
-                <h3>Director:</h3>
-                <p>A.R. Murugadoss</p>
-            </div>
-            <div>
-                <h3>Language:</h3>
-                <p>Hindi DD2.0</p>
-            </div>
-            <div>
-                <h3>Quality:</h3>
-                <p>PRE-HD 1080p | 720p | 480p</p>
-            </div>
+            <h3>IMDB Rating:</h3>
+            <p>7.7/10</p>
+        </div>
+
+        <!-- Genre Row -->
+        <div class="movie-details-row">
+            <h3>Genre:</h3>
+            <p>Action | Drama | Thriller</p>
+        </div>
+
+        <!-- Stars Row -->
+        <div class="movie-details-row">
+            <h3>Stars:</h3>
+            <p>Salman Khan, Rashmika Mandanna, Sathyaraj</p>
+        </div>
+
+        <!-- Director Row -->
+        <div class="movie-details-row">
+            <h3>Director:</h3>
+            <p>A.R. Murugadoss</p>
+        </div>
+
+        <!-- Language Row -->
+        <div class="movie-details-row">
+            <h3>Language:</h3>
+            <p>Hindi DD2.0</p>
+        </div>
+
+        <!-- Quality Row -->
+        <div class="movie-details-row">
+            <h3>Quality:</h3>
+            <p>PRE-HD 1080p | 720p | 480p</p>
         </div>
     </div>
 
